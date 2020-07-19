@@ -189,6 +189,3 @@ Example:
 $ cd kubernetes-ingress/helm-chart
 $ helm install my-release . --set controller.replicaCount=5
 ```
-
-## Notes
-* The values-icp.yaml file is used for deploying the Ingress controller on IBM Cloud Private. See the [blog post](https://www.nginx.com/blog/nginx-ingress-controller-ibm-cloud-private/) for more details.
